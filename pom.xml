@@ -9,13 +9,13 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>in.multi-tools</groupId>
-	<artifactId>patch-tools-example</artifactId>
+	<artifactId>partial-update-example</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>patch-tools-example</name>
-	<description>Demo project for PatchTools usage in Spring WebApp</description>
+	<name>partial-update-example</name>
+	<description>Demo project for Partial Update library usage in Spring WebApp</description>
 	<properties>
 		<java.version>1.8</java.version>
-		<patch.tools.core.version>0.2.0</patch.tools.core.version>
+		<partial.update.core.version>0.1.0</partial.update.core.version>
         <spring.boot.version>2.4.2</spring.boot.version>
         <projectlombok.version>1.18.18</projectlombok.version>
         <mapstruct.version>1.4.2.Final</mapstruct.version>
@@ -53,8 +53,8 @@
 
         <dependency>
             <groupId>in.multi-tools</groupId>
-            <artifactId>patch-tools-core</artifactId>
-            <version>${patch.tools.core.version}</version>
+            <artifactId>partial-update-core</artifactId>
+            <version>${partial.update.core.version}</version>
         </dependency>
 
         <!-- Test scope -->
